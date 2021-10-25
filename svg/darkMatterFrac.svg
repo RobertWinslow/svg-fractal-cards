@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2.5in" height="3.5in"
+     viewBox="0 0 80 112"  >
+   
+  <defs>
+        <path id="level0"    
+        d="M 0.99641577,6.6597406e-6 A 1,1 0 1 0 2,1.0000066 1,1 0 0 0 0.99641577,6.6597406e-6 Z m 0,1.5686977402594 A 0.40501792,0.40501792 0 1 1 1.4026284,1.1672707 0.40501792,0.40501792 0 0 1 0.99641577,1.5687044 Z"
+       transform="translate(-1,-1)"/>
+        <use  xlink:href="#star"     preserveAspectRatio="none"   id="level0old"  transform="translate(-1,-1)"/>
+
+        <g id="level1">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level0" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level0" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level0" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id="level2">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level1" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level1" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level1" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id="level3">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level2" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level2" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level2" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id="level4">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level3" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level3" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level3" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id="level5">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level4" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level4" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level4" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id="level6">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level6" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level6" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level6" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id="level7">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level6" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level6" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level6" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id="level8">
+            <use xlink:href="#level0" transform="  translate(0.05,-0.05)   scale(0.2)    rotate (-34)  "   fill="#b67da7" />
+            <use xlink:href="#level7" transform="  translate(-1.4,-0.3)   scale(0.4)    rotate (-50)  "   />
+            <use xlink:href="#level7" transform="  translate(1.6,0)   scale(0.3)    rotate (70)  "  />
+            <use xlink:href="#level7" transform="  translate(0.1,-1.5)   scale(0.7)    rotate (60)  "    />
+        </g>
+        <g id ="base">
+            <!--use xlink:href="#level8" />
+            <use xlink:href="#level7" fill="#c07bae"/>
+            <use xlink:href="#level6" /                         Any deeper than this and the previewer crashes at save. No idea why this doesn't happen with other fractals.-->
+            <use xlink:href="#level5" fill="#c07bae"/>
+            <use xlink:href="#level4" />
+            <use xlink:href="#level3" fill="#c07bae"/>
+            <use xlink:href="#level2" />
+            <use xlink:href="#level1" fill="#c07bae"/>
+            <use xlink:href="#level0" />
+        </g>
+        
+  </defs>
+    <rect    id="cardBackground"     width="79" height="111" x="0.5" y="0.5" rx="4" ry="4" fill="white" stroke="black"/>
+    
+    <use xlink:href="#base" transform="translate(35,49) scale(10)"   fill="#cf8ebe" />
+    <use xlink:href="#base" transform="rotate(180 40 56)   translate(35,49) scale(10) "  fill="#cf8ebe" />
+
+
+
+<use  xlink:href="#level0"     transform="translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipUL" fill="#c07bae"/>
+        <use  xlink:href="#level0"     transform="rotate(180 40 56)    translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipLR" fill="#c07bae"/>
+        <text    x="8"    y="16"     text-anchor="middle"     fill='#cf8ebe'       lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"> ∞</text>
+        <text    x="8"    y="16"     text-anchor="middle"     fill='#cf8ebe'      lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"    transform="rotate(180 40 56)"  > ∞</text>
+
+   
+</svg>

@@ -1,0 +1,110 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2.5in" height="3.5in"
+     viewBox="0 0 80 112"  >
+   
+  <defs>
+        <path id="pip"  
+        d="m1 2a5.6373 5.6373 0 0 0-0.72635-1 5.6373 5.6373 0 0 0 0.72635-1 5.6373 5.6373 0 0 0 0.72635 1 5.6373 5.6373 0 0 0-0.72635 1z"
+       transform="translate(-1,-1) "/>
+       <path id="level0"  
+        d="m1 2a5.6373 5.6373 0 0 0-0.72635-1 5.6373 5.6373 0 0 0 0.72635-1 5.6373 5.6373 0 0 0 0.72635 1 5.6373 5.6373 0 0 0-0.72635 1z"
+       transform="scale(0.35) translate(-1,-1) "/>
+       
+        <g id="level1outer">
+            <use xlink:href="#level0"  transform="  translate(-1.1,0)   scale(0.5)    rotate (-0)  "   />
+            <use xlink:href="#level0"  transform="  translate(+1.1,0)   scale(0.5)    rotate (0)  "   />
+            <use xlink:href="#level0"  transform="  translate(0,1.5)  scale(0.5)    rotate (0)  "   />
+            <use xlink:href="#level0"  transform="  translate(0,-1.5)   scale(0.5)    rotate (-0)  "   />
+            <use xlink:href="#level0"  transform="  translate(+.55,-.75) scale(0.5) rotate (-0)  "   />
+            <use xlink:href="#level0"  transform="  translate(+.55,+.75) scale(0.5) rotate (-0)  "   />
+            <use xlink:href="#level0"  transform="  translate(-.55,-.75) scale(0.5) rotate (-0)  "   />
+            <use xlink:href="#level0"  transform="  translate(-.55,+.75) scale(0.5) rotate (-0)  "   />
+        </g>
+        <g id="level1">
+            <use xlink:href="#level0"  transform="  translate(-.45,0) scale(0.3) rotate (-0)  "   />
+            <use xlink:href="#level0"  transform="  translate(+.45,0)   scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level0"  transform="  translate(0,.65)  scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level0"  transform="  translate(0,-.65)   scale(0.3)    rotate (-0)  "   />
+            <use xlink:href="#level0"  transform="  translate(-.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level0"  transform="  translate(+.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level0"  transform="  translate(-.225,+.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level0"  transform="  translate(+.225,+.325) scale(0.3) rotate (-0) " />
+        </g>
+        
+        <g id="level2">
+            <use xlink:href="#level1"  transform="  translate(-.45,0) scale(0.3) rotate (-0)  "   />
+            <use xlink:href="#level1"  transform="  translate(+.45,0)   scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level1"  transform="  translate(0,.65)  scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level1"  transform="  translate(0,-.65)   scale(0.3)    rotate (-0)  "   />
+            <use xlink:href="#level1"  transform="  translate(-.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level1"  transform="  translate(+.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level1"  transform="  translate(-.225,+.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level1"  transform="  translate(+.225,+.325) scale(0.3) rotate (-0) " />
+        </g>
+        <g id="level3">
+            <use xlink:href="#level2"  transform="  translate(-.45,0) scale(0.3) rotate (-0)  "   />
+            <use xlink:href="#level2"  transform="  translate(+.45,0)   scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level2"  transform="  translate(0,.65)  scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level2"  transform="  translate(0,-.65)   scale(0.3)    rotate (-0)  "   />
+            <use xlink:href="#level2"  transform="  translate(-.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level2"  transform="  translate(+.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level2"  transform="  translate(-.225,+.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level2"  transform="  translate(+.225,+.325) scale(0.3) rotate (-0) " />
+        </g>
+        <g id="level4">
+            <use xlink:href="#level3"  transform="  translate(-.45,0) scale(0.3) rotate (-0)  "   />
+            <use xlink:href="#level3"  transform="  translate(+.45,0)   scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level3"  transform="  translate(0,.65)  scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level3"  transform="  translate(0,-.65)   scale(0.3)    rotate (-0)  "   />
+            <use xlink:href="#level3"  transform="  translate(-.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level3"  transform="  translate(+.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level3"  transform="  translate(-.225,+.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level3"  transform="  translate(+.225,+.325) scale(0.3) rotate (-0) " />
+        </g>
+        <g id="level5">
+            <use xlink:href="#level4"  transform="  translate(-.45,0) scale(0.3) rotate (-0)  "   />
+            <use xlink:href="#level4"  transform="  translate(+.45,0)   scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level4"  transform="  translate(0,.65)  scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level4"  transform="  translate(0,-.65)   scale(0.3)    rotate (-0)  "   />
+            <use xlink:href="#level4"  transform="  translate(-.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level4"  transform="  translate(+.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level4"  transform="  translate(-.225,+.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level4"  transform="  translate(+.225,+.325) scale(0.3) rotate (-0) " />
+        </g>
+        <!--<g id="level6">
+            <use xlink:href="#level5"  transform="  translate(-.45,0) scale(0.3) rotate (-0)  "   />
+            <use xlink:href="#level5"  transform="  translate(+.45,0)   scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level5"  transform="  translate(0,.65)  scale(0.3)    rotate (0)  "   />
+            <use xlink:href="#level5"  transform="  translate(0,-.65)   scale(0.3)    rotate (-0)  "   />
+            <use xlink:href="#level5"  transform="  translate(-.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level5"  transform="  translate(+.225,-.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level5"  transform="  translate(-.225,+.325) scale(0.3) rotate (-0) " />
+            <use xlink:href="#level5"  transform="  translate(+.225,+.325) scale(0.3) rotate (-0) " />
+        </g>-->
+        <g id ="base">
+            <use xlink:href="#level0" fill="#2b4b91"/>
+            <use xlink:href="#level1" fill="#2b4b91"/>
+            <use xlink:href="#level2" fill="#2b4b91"/>
+            <use xlink:href="#level3" fill="#2b4b91"/>
+            <use xlink:href="#level4" fill="#2b4b91"/>
+            <use xlink:href="#level5" fill="#2b4b9122"/>
+            <use xlink:href="#level6" fill="#2b4b9122"/>
+        </g>
+        
+  </defs>
+    <rect    id="cardBackground"     width="79" height="111" x="0.5" y="0.5" rx="4" ry="4" fill="white" stroke="black"/>
+    
+    <use xlink:href="#base" transform="translate(40,56) scale(50)"/>
+    <!--<use xlink:href="#base" transform="rotate(180 40 56)   translate(35,50) scale(10) "/>-->
+
+
+
+    <use  xlink:href="#pip"     transform="translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipUL" fill="#2b4b91"/>
+    <use  xlink:href="#pip"     transform="rotate(180 40 56)    translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipLR" fill="#2b4b91"/>
+    <text    x="8"    y="16"     text-anchor="middle"     fill='#2b4b91'       lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"> ∞</text>
+    <text    x="8"    y="16"     text-anchor="middle"     fill='#2b4b91'      lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"    transform="rotate(180 40 56)"  > ∞</text>
+
+   
+</svg>

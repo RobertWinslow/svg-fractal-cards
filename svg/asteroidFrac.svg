@@ -1,0 +1,69 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2.5in" height="3.5in"
+     viewBox="0 0 80 112"  >
+   <!--fill="#bf6228"  -->
+  <defs>
+        <path id="level0"    
+     d="M 1.3402647,1.063327 H 1.8941399 A 6.1209831,6.1209831 0 0 1 1,0 6.1209831,6.1209831 0 0 1 0.10586009,1.063327 H 0.65973534 A 7.5680531,7.5680531 0 0 1 1,2 7.5680531,7.5680531 0 0 1 1.3402647,1.063327 Z"  transform="translate(-1,-1)"/>
+        <use  xlink:href="#star"     preserveAspectRatio="none"   id="level0old"  transform="translate(-1,-1)"/>
+
+        <g id="level1">
+            <use xlink:href="#level0" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"   />
+            <use xlink:href="#level0" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"      />
+        </g>
+        <g id="level2">
+            <use xlink:href="#level1" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"  />
+            <use xlink:href="#level1" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"      />
+        </g>
+        <g id="level3">
+            <use xlink:href="#level2" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+            <use xlink:href="#level2" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+        </g>
+        <g id="level4">
+            <use xlink:href="#level3" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+            <use xlink:href="#level3" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"    />
+        </g>
+        <g id="level5">
+            <use xlink:href="#level4" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+            <use xlink:href="#level4" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+        </g>
+        <g id="level6">
+            <use xlink:href="#level5" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+            <use xlink:href="#level5" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+        </g>
+        <g id="level7">
+            <use xlink:href="#level6" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+            <use xlink:href="#level6" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+        </g>
+        <g id="level8">
+            <use xlink:href="#level7" transform="  translate(-0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+            <use xlink:href="#level7" transform="  translate(0.6,0.75)   scale(0.45 0.55)    rotate (-0)  "    opacity="0.9"/>
+        </g>
+        <g id ="base">
+            <use xlink:href="#level0"    fill="#bf6228"/>
+            <use xlink:href="#level1"    fill="#d27823"/>
+            <use xlink:href="#level2"    fill="#e3911b"/>
+            <use xlink:href="#level3"    fill="#f0aa0e" />
+            <use xlink:href="#level4"    fill="#f9c600"/>
+            <use xlink:href="#level5"    fill="#fee200"/>
+            <use xlink:href="#level6"    fill="yellow"/>
+            <use xlink:href="#level7"    fill="yellow"/>
+            <use xlink:href="#level8"    fill="yellow"/>
+        </g>
+        
+  </defs>
+    <rect    id="cardBackground"     width="79" height="111" x="0.5" y="0.5" rx="4" ry="4" fill="white" stroke="black"/>
+    
+    <use xlink:href="#base" transform="translate(40,46) scale(20)"/>
+
+
+
+<use  xlink:href="#level0"     transform="translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipUL"          fill='#bf6228' />
+        <use  xlink:href="#level0"     transform="rotate(180 40 56)    translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipLR"           fill='#bf6228' />
+        <text    x="8"    y="16"     text-anchor="middle"     fill='#bf6228'       lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"> ∞</text>
+        <text    x="8"    y="16"     text-anchor="middle"     fill='#bf6228'      lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"    transform="rotate(180 40 56)"  > ∞</text>
+
+   
+</svg>

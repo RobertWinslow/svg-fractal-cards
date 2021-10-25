@@ -1,0 +1,79 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2.5in" height="3.5in"
+     viewBox="0 0 80 112"  >
+   
+  <defs>
+        <path id="level0" fill="#d3a533" d="M 1.5014634,1.1809162 2,0.98724624 1.4887805,0.78979724 1.7004878,0.31081724 1.2126829,0.51299024 1.0029268,2.3706055e-7 0.79317073,0.51110124 0.27609756,0.29664624 0.49658537,0.79546524 0,0.98441224 0.50536585,1.1809162 0.28585366,1.6806802 0.78536585,1.4737842 1.0039024,2.0000002 1.2126829,1.4926782 1.7356098,1.7099672 z" transform="translate(-1,-1)"/>
+        <use  xlink:href="#star"     preserveAspectRatio="none"   id="level0old"  transform="translate(-1,-1)"/>
+
+        <g id="level1">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level0" transform="rotate(-45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level0" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level0" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+        </g>
+        <g id="level2">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level1" transform="rotate(-45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level1" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level1" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+        </g>
+        <g id="level3">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level2" transform="rotate(-45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level2" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level2" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+        </g>
+        <g id="level4">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level3" transform="rotate(-45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level3" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level3" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+        </g>
+        <g id="level5">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level4" transform="rotate(-45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+        </g>
+        <g id="level6">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level5" transform="rotate(-45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level5" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level5" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+        </g>
+        <g id="level7">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level6" transform="rotate(-45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level6" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level6" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+        </g>
+        <g id ="base">
+            <use xlink:href="#level0" transform="matrix(1 0 0 1  0  0)" />
+            <use xlink:href="#level4" transform="rotate(0) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(45) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(90) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(135) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(180) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(225) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(270) translate(0,-1) scale(0.414121) " />
+            <use xlink:href="#level4" transform="rotate(315) translate(0,-1) scale(0.414121) " />
+        </g>
+        
+  </defs>
+    <rect    id="cardBackground"     width="79" height="111" x="0.5" y="0.5" rx="4" ry="4" fill="white" stroke="black"/>
+    
+    <use xlink:href="#base" transform="translate(40,56) scale(20)"/>
+
+
+
+
+<use  xlink:href="#level0"     transform="translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipUL" />
+        <use  xlink:href="#level0"     transform="rotate(180 40 56)    translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipLR" />
+        <text    x="8"    y="16"     text-anchor="middle"     fill='#d3a533'       lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"> ∞</text>
+        <text    x="8"    y="16"     text-anchor="middle"     fill='#d3a533'      lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"    transform="rotate(180 40 56)"  > ∞</text>
+
+   
+</svg>

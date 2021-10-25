@@ -1,0 +1,74 @@
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="2.5in" height="3.5in"
+     viewBox="0 0 80 112"  >
+   
+  <defs>
+        <path id="level0" fill="#878686" 
+        d="M 2,1.993699 A 3.2826282,3.2826282 0 0 1 1.3960396,1.183618 3.261026,3.261026 0 0 1 1,0.26282601 v 0 A 3.261026,3.261026 0 0 1 0.60396038,1.189919 3.260126,3.260126 0 0 1 0,2 3.240324,3.240324 0 0 1 1,1.873087 3.240324,3.240324 0 0 1 2,1.993699 Z"
+     transform="translate(-1,-1)"/>
+     
+        <g id="level1">
+            <use xlink:href="#level0" opacity="0.4" />
+            <use xlink:href="#level0" transform="translate(-0.5 0.5) scale(0.5) " />
+            <use xlink:href="#level0" transform=" translate(0.5 0.5) scale(0.5)" />
+            <use xlink:href="#level0" transform=" translate(0 -0.366025) scale(0.5)" />
+        </g>
+        <g id="level2">
+            <use xlink:href="#level1" opacity="0.4" />
+            <use xlink:href="#level1" transform="translate(-0.5 0.5) scale(0.5) " />
+            <use xlink:href="#level1" transform=" translate(0.5 0.5) scale(0.5)" />
+            <use xlink:href="#level1" transform=" translate(0 -0.366025) scale(0.5)" />
+        </g>
+        <g id="level3">
+            <use xlink:href="#level2" opacity="0.4" />
+            <use xlink:href="#level2" transform="translate(-0.5 0.5) scale(0.5) " />
+            <use xlink:href="#level2" transform=" translate(0.5 0.5) scale(0.5)" />
+            <use xlink:href="#level2" transform=" translate(0 -0.366025) scale(0.5)" />
+        </g>
+        <g id="level4">
+            <use xlink:href="#level3" opacity="0.2" />
+            <use xlink:href="#level3" transform="translate(-0.5 0.5) scale(0.5) " />
+            <use xlink:href="#level3" transform=" translate(0.5 0.5) scale(0.5)" />
+            <use xlink:href="#level3" transform=" translate(0 -0.366025) scale(0.5)" />
+        </g>
+        <g id="level5">
+            <use xlink:href="#level4" opacity="0.2" />
+            <use xlink:href="#level4" transform="translate(-0.5 0.5) scale(0.5) "   />
+            <use xlink:href="#level4" transform=" translate(0.5 0.5) scale(0.5)" />
+            <use xlink:href="#level4" transform=" translate(0 -0.366025) scale(0.5)" />
+        </g>
+        <g id="level6">
+            <use xlink:href="#level5" opacity="0.2" />
+            <use xlink:href="#level5" transform="translate(-0.5 0.5) scale(0.5) "   />
+            <use xlink:href="#level5" transform=" translate(0.5 0.5) scale(0.5)" />
+            <use xlink:href="#level5" transform=" translate(0 -0.366025) scale(0.5)" />
+        </g>
+        <g id="level7">
+            <use xlink:href="#level6" opacity="0.2" />
+            <use xlink:href="#level6" transform="translate(-0.5 0.5) scale(0.5) "   />
+            <use xlink:href="#level6" transform=" translate(0.5 0.5) scale(0.5)" />
+            <use xlink:href="#level6" transform=" translate(0 -0.366025) scale(0.5)" />
+        </g>
+        
+  </defs>
+    <rect    id="cardBackground"     width="79" height="111" x="0.5" y="0.5" rx="4" ry="4" fill="white" stroke="black"/>
+    
+    <use xlink:href="#level0" transform="translate(40,25) scale(25)" opacity="0.2" />
+    <use xlink:href="#level6" transform="translate(40,25) scale(25)"/>
+
+    
+    <use xlink:href="#level0" transform="rotate(180 40 56) translate(40,25) scale(25)" opacity="0.2" />
+    <use xlink:href="#level6" transform="rotate(180 40 56) translate(40,25) scale(25)"/>
+
+
+
+
+    <use  xlink:href="#level0"     transform="translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipUL" />
+    <use  xlink:href="#level0"     transform="rotate(180 40 56)    translate(8 24) scale(4)"     preserveAspectRatio="none"    id="smallPipLR" />
+    <text    x="8"    y="16"     text-anchor="middle"     fill='#878686'       lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"> ∞</text>
+    <text    x="8"    y="16"     text-anchor="middle"     fill='#878686'      lengthAdjust="spacingAndGlyphs"     font-weight="bold"   font-size="14"     style="font-family:'CMU Serif';"    transform="rotate(180 40 56)"  > ∞</text>
+
+   
+</svg>
